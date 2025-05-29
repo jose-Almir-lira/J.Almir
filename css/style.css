@@ -1,21 +1,31 @@
 body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background: #f4f4f4;
+            background: #222;
             color: #222;
         }
 header {
-            background: #222;
+            background: #000;
             color: #fff;
             padding: 2rem 0;
             text-align: center;
         }
+#foto {
+    
+    background: url("../imagens/foto.png") no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    height: 188px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
 nav {
             margin: 1rem 0;
             text-align: center;
         }
 nav a {
-            color: #222;
+            color: #fff;
             text-decoration: none;
             margin: 0 1rem;
             font-weight: bold;
@@ -31,13 +41,14 @@ section {
 h2 {
             color: #007acc;
         }
+
 .projetos {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             margin: 1rem 0;
             gap: 1,5rem;
-           
+            
         }
 .projeto {
             background: #f9f9f9;
